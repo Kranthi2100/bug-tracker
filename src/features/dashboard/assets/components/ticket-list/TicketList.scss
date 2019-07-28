@@ -1,0 +1,41 @@
+$primary: rgb(12, 12, 12);
+
+.TicketList{
+  margin-top: 10px;
+  width: 500px;
+}
+
+.TicketList .Ticket{
+  margin-top: 10px;
+  min-height: 100px;
+  border: 2px solid $primary;
+  cursor: pointer;
+}
+
+.TicketList .Ticket .TitleContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .Bookmark{
+    background-color: red;
+    padding: 10px 10px;
+  }
+  .Title{
+    padding: 10px 10px;
+  }
+}
+
+.TicketList .Ticket .Content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 10px;
+  .ImgContainer{
+    min-width: 100px;
+    min-height: 100px;
+    transform: scale(3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
