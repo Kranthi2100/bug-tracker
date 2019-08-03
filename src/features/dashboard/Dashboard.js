@@ -1,5 +1,5 @@
 import React from 'react';
-import { TicketList } from './assets';
+import { TicketList } from './components';
 
 
 const Dashboard = (props) => (

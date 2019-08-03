@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import database from '../../../../../firebase/firebase';
+import database from '../../../../firebase/firebase';
 import './TicketList.scss';
 
 const TicketList = (props) => {
